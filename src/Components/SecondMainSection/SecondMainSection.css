@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.movie-box{
+    width: 75%;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: black;
+    opacity: 0.9;
+    color:white;
+    position: relative;
+}
+@media screen and (max-width:1200px) {
+    .movie-box{
+        width: 90%;
+    }
+}
+@media screen and (max-width:400px) {
+    .movie-box{
+        width: 95%;
+        padding: 20px;
+    }
+}

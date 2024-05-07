@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.card{
+    /* border: 2px solid black; */
+    padding: 15px;
+    border: 1px solid rgb(171, 153, 153);
+    box-shadow: 0px 0px 5px 1px grey;
+    transition: 0.2s ease-in;
+}
+.card:hover{
+    scale: 105%;
+    cursor: pointer;
+}
+.color-box{
+    width: 70%;
+    height: 90px;
+    margin: 10px auto;
+}
+.color-details-box{
+    width: 70%;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+.color-name{
+    font-size: 17px;
+    padding: 0px 5px;
+    /* border: 2px solid rgb(0, 255, 255); */
+    font-weight: 600;
+}
+.color-code{
+    font-size: 25px;
+    padding:0px 5px;
+    /* border: 2px solid blue; */
+    font-weight: 600;
+}
+

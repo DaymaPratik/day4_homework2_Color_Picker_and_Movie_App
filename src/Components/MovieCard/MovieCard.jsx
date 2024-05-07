@@ -3,8 +3,8 @@ import "./MovieCard.css";
 const MovieCard = (props) => {
   // console.log(props.item);
    return (
-    <div className="mcard">
-        <img src={props.item.image} alt=""  className="hid-img"/>
+    <div className="mcard" style={{backgroundImage:`url(${props.item.image})`}} >
+        <img src={props.item.thumbnail} alt=""  className="hid-img"/>
       <div className="card-content">
         <div className="img-name-box">
           <img
